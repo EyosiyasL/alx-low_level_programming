@@ -20,15 +20,15 @@ putchar(j);
 
 if(i == '8' && j == '9')
 {
-putcharm('\n');
+putchar('\n');
 }
 else
 {
-putcharm(',');
-putcharm(' ');
+putchar(',');
+putchar(' ');
 }
 }
-j++
+j++;
 }
 j = '0';
 i++;
