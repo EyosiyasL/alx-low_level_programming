@@ -1,20 +1,19 @@
 #include "main.h"
 /**
- *  * main - Prints Holberton
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Prints Holberton
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
+	char eyosi[] = "_putchar";
+
+	int d;
+
+	for (d = 0; d < 8; d++)
+	{
+		_putchar(eyosi[d]);
+	}
 	_putchar('\n');
 	return (0);
 }
