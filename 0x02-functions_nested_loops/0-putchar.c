@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- * main - Prints Holberton
- *
- * Return: Always 0 (Success)
- */
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
 int main(void)
 {
-	char eyosi[] = "_putchar";
+	char ermias[] = "_putchar";
 
-	int d;
+	int c;
 
-	for (d = 0; d < 8; d++)
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(eyosi[d]);
+		_putchar(ermias[c]);
 	}
 	_putchar('\n');
 	return (0);
